@@ -1,6 +1,7 @@
 # MALV-FinalProject
 This is the description for the Final Project for the course T-725-MALV in Reykjavík University<br>
-Project Members:
+<br>
+**Project Members:**
 - Elvar Þór Sævarsson (elvars20@ru.is)
 - Sirus Palsson (sirus24@ru.is)
 
