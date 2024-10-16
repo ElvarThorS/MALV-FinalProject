@@ -6,5 +6,5 @@
 
 
 ## Related Material
-**Entity Linking**
-**Wikipedia corpus**
+**Entity Linking**\n
+**Wikipedia corpus**\n
