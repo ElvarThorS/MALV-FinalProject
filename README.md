@@ -2,7 +2,7 @@
 This is the description for the Final Project for the course T-725-MALV in Reykjavík University
 Project Members:
 - Elvar Þór Sævarsson (elvars20@ru.is)
-- Sirus Palsson (sirus24@ru.is
+- Sirus Palsson (sirus24@ru.is)
 
 ## Goals
 Data-driven methods to study history are limited due to the lack of validated quantitative time series data. The data on history almost is entirely comprised of text-based, qualitative data. Therefore, we aim to develop a neural network-based methodology to study the sequuence of events in history, in an attempt to create easily an interpretable "line graph of history".
