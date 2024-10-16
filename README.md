@@ -11,10 +11,10 @@ Data-driven methods to study history are limited due to the lack of validated qu
 A few challenges need to be addressed. To name a few:
 1. A Named-entity Recognition task to identify what is an event and what is not. 
 2. The "quantification" of events in order to determine the importance or relevance of events over time.
-3. An event type detection to ensure that events that are being linked together chare a common topical relevance.
+3. An event type detection to ensure that events that are being linked together share a common topical relevance.
 
 ## Approach/Methodology:
-Use a pre-trained bidirectional model (BERT) and fine-tuned on historical articles from the Wikipedia corpus. Given that wikipedia is availabe in multiple languages, the approach will be to create a methodology that works with Modern English, and a transfer learning exercise to other languages is feasible task in the future. The highly-structured nature of the Wikipedia corpus will allow us to implement several NLP tasks without much data processing, including:
+Use a pre-trained bidirectional model (BERT) and fine-tune on historical articles from the Wikipedia corpus. Given that Wikipedia is availabe in multiple languages, the approach will be to create a methodology that works with Modern English, and a transfer learning exercise to other languages would be feasible task in the future. The highly-structured nature of the Wikipedia corpus will allow us to implement several NLP tasks without minimal data processing, including:
 - Entity-linking
 - Span Labelling
 - Named Entity Recognition
