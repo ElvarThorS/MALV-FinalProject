@@ -6,10 +6,10 @@ This is the description for the Final Project for the course T-725-MALV in Reykj
 - Sirus Palsson (sirus24@ru.is)
 
 ## Goals
-Data-driven methods to study history are limited due to the lack of validated quantitative time series data. The data on history almost is entirely comprised of text-based, qualitative data. Therefore, we aim to develop a neural network-based methodology to study the sequuence of events in history, in an attempt to create easily an interpretable "line graph of history".
+Data-driven methods to study history are limited due to the lack of validated quantitative time series data that "define" history. The data of history is almost entirely comprised of text-based, qualitative data. Therefore, we aim to develop a neural network-based methodology to study the sequence of events in history, in an attempt to quantify events and create an easily interpretable "line graph of history".
 
-A few challenges need to be addressed. To name a few:
-1. A Named-entity Recognition task to identify what is an event and what is not. 
+Many challenges need to be addressed to develop this methodology. To name a few:
+1. A Named-Entity Recognition (NER) task to identify what is an event and what is not. 
 2. The "quantification" of events in order to determine the importance or relevance of events over time.
 3. An event type detection to ensure that events that are being linked together share a common topical relevance.
 
