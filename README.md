@@ -8,10 +8,18 @@ A few challenges need to be addressed. To name a few:
 2. The "quantification" of events in order to determine the importance or relevance of events over time.
 3. An event type detection to ensure that events that are being linked together chare a common topical relevance.
 
+Approach/Methodology:
+Use a pre-trained bidirectional model (BERT) and fine-tuned on historical articles from the Wikipedia corpus. Given that wikipedia is availabe in multiple languages, the approach will be to create a methodology that works with Modern English, and a transfer learning exercise to other languages is feasible task in the future. The highly-structured nature of the Wikipedia corpus will allow us to implement several NLP tasks without much data processing, including:
+- Entity-linking
+- Span Labelling
+- Named Entity Recognition
+- Information Retrieval
+- Classification with feature extraction and self-supervised learning
 
+Benefits
+- A general increase in historical knowlegdge for society
+- Knowledge gained benefits entities engaged in long-term planning based on the anticiaption of historical events "repeating"
 
-Try to use a pre-trained bidirectional model (BERT) to classify importance or relevance of events based on seperate events created or linked to the original event.
-We will use the wikipedia corpus to gather data of events.
 
 
 
