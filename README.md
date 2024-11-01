@@ -47,3 +47,7 @@ Outline of War: https://en.wikipedia.org/wiki/Outline_of_war <br>
 **Entity Linking**<br> 
 **Span Labeling** <br>
 
+## ChatGPT Prompts
+Can you write Python code for me that fine-tunes bert-base-cased using the transformers library on the wikimedia/structured-wikipedia using the datasets library? <br>
+Can you change the above code for multi-class classification and include early stopping?
+
