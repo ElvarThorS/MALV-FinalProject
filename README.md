@@ -27,12 +27,16 @@ Use a pre-trained bidirectional model (BERT) and fine-tune on historical article
 
 
 
-
-
 ## Related Material
-**BERT Transformer**
+**Hugging Face Libraries** <br>
+Datasets (PyPi):https://pypi.org/project/datasets/ <br>
+Datasets (Hugging Face): https://huggingface.co/docs/datasets/en/index <br>
+Transformers (PyPi): https://pypi.org/project/transformers/ <br>
+Transformers (Hugging Face): https://huggingface.co/docs/transformers/en/index <br>
+**BERT Transformer** <br>
 BERT pre-trained model on Huggingface: https://huggingface.co/google-bert/bert-base-cased <br>
 Other pre-trained models on Huggingface: https://huggingface.co/transformers/v3.3.1/pretrained_models.html <br>
+Huggingface documentation on using BERT models: https://huggingface.co/docs/transformers/model_doc/bert <br>
 Original BERT paper: https://arxiv.org/abs/1810.04805 <br>
 BERT Github: https://github.com/google-research/bert <br>
 **Wikipedia Corpus**<br>
@@ -42,3 +46,4 @@ History Category Outline: https://en.wikipedia.org/wiki/Category:History <br>
 Outline of War: https://en.wikipedia.org/wiki/Outline_of_war <br>
 **Entity Linking**<br> 
 **Span Labeling** <br>
+
