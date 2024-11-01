@@ -32,6 +32,8 @@ Use a pre-trained bidirectional model (BERT) and fine-tune on historical article
 ## Related Material
 BERT pre-trained model on Huggingface: https://huggingface.co/google-bert/bert-base-cased <br>
 Other pre-trained models on Huggingface: https://huggingface.co/transformers/v3.3.1/pretrained_models.html <br>
+Original BERT paper: https://arxiv.org/abs/1810.04805 <br>
+BERT Github: https://github.com/google-research/bert <br>
 **Entity Linking**<br>
 **Wikipedia corpus**<br>
 **Span Labeling** <br>
