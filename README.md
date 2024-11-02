@@ -14,7 +14,7 @@ Many challenges need to be addressed to develop this methodology. To name a few:
 3. An event type detection to ensure that events that are being linked together share a common topical relevance.
 
 ## Approach/Methodology:
-Use a pre-trained bidirectional model (BERT) and fine-tune on historical articles from the Wikipedia corpus. Given that Wikipedia is availabe in multiple languages, the approach will be to create a methodology that works with Modern English, and a transfer learning exercise to other languages would be feasible task in the future. The highly-structured nature of the Wikipedia corpus will allow us to implement several NLP tasks without minimal data processing, including:
+Use a pre-trained bidirectional model (BERT) and fine-tune on historical articles from the Wikipedia corpus. Given that Wikipedia is availabe in multiple languages, the approach will be to create a methodology that works with Modern English, and a transfer learning exercise to other languages would be feasible task in the future. The highly-structured nature of the Wikipedia corpus will allow us to implement several NLP tasks with minimal data processing, including:
 - Entity-linking
 - Span Labelling
 - Named Entity Recognition
