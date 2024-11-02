@@ -51,3 +51,36 @@ Outline of War: https://en.wikipedia.org/wiki/Outline_of_war <br>
 Can you write Python code for me that fine-tunes bert-base-cased using the transformers library on the wikimedia/structured-wikipedia using the datasets library? <br>
 Can you change the above code for multi-class classification and include early stopping?
 
+How to Stream datasets from Hugging face (from https://huggingface.co/datasets/not-lain/wikipedia-small-3000-embedded): <br>
+
+```python
+from datasets import load_dataset, Dataset
+from sentence_transformers import SentenceTransformer
+model = SentenceTransformer("mixedbread-ai/mxbai-embed-large-v1")
+
+# load dataset in streaming mode (no download and it's fast)
+dataset = load_dataset(
+    "wikimedia/wikipedia", "20231101.en", split="train", streaming=True
+)
+
+# select 3000 samples
+from tqdm import tqdm
+data = Dataset.from_dict({})
+for i, entry in enumerate(dataset):
+    # each entry has the following columns
+    # ['id', 'url', 'title', 'text']
+    data = data.add_item(entry)
+    if i == 3000:
+        break
+# free memory
+del dataset
+
+# embed the dataset
+def embed(row):
+  return {"embedding" : model.encode(row["text"])}
+data = data.map(embed)
+
+# push to hub
+data.push_to_hub("not-lain/wikipedia-small-3000-embedded")
+```
+
