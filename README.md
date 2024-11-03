@@ -26,6 +26,11 @@ Use a pre-trained bidirectional model (BERT) and fine-tune on historical article
 - Knowledge gained benefits entities engaged in long-term planning based on the anticiaption of historical events "repeating"
 
 
+## Status
+November 3, 2024: 
+- Go with structured Wikipedia, contains more features from which we can feature extraction
+- Created some (bad) code that extracts some features from the dataset (incomplete, needs to loop overall sections of 'sections' and needs to be modularized with functions)
+
 
 ## Related Material
 **Hugging Face Libraries** <br>
