@@ -53,6 +53,7 @@ Structured Wikipedia Corpus: https://huggingface.co/datasets/wikimedia/structure
 Unstructured Wikipedia Corpus: https://huggingface.co/datasets/wikimedia/wikipedia <br>
 History Category Outline: https://en.wikipedia.org/wiki/Category:History <br>
 Outline of War: https://en.wikipedia.org/wiki/Outline_of_war <br>
+https://en.wikipedia.org/wiki/American_Indian_Wars <br>
 **Entity Linking**<br> 
 **Span Labeling** <br>
 
