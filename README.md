@@ -5,6 +5,8 @@ This is the description for the Final Project for the course T-725-MALV in Reykj
 - Elvar Þór Sævarsson (elvars20@ru.is)
 - Sirus Palsson (sirus24@ru.is)
 
+https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Custom_Named_Entity_Recognition_with_BERT_only_first_wordpiece.ipynb
+
 ## Goals
 Data-driven methods to study history are limited due to the lack of validated quantitative time series data that "define" history. The data of history is almost entirely comprised of text-based, qualitative data. Therefore, we aim to develop a neural network-based methodology to study the sequence of events in history, in an attempt to quantify events and create an easily interpretable "line graph of history".
 
