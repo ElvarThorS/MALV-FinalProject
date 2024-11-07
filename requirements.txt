@@ -2,3 +2,8 @@ datasets
 transformers
 spaCy
 pandas
+numpy
+scikit-learn
+torch
+wikipedia
+tkinter
