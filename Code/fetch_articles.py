@@ -28,7 +28,7 @@ def fetch_random_articles(n):
 
                     article_data.append({
                         'title': page,
-                        'ummary': wiki_page.summary,
+                        'summary': wiki_page.summary,
                         'url': wiki_page.url
                     })
                     count += 1
@@ -55,7 +55,7 @@ def save_articles_to_file(article_data, filename):
     print(f"Article data saved to {filename}")
 
 if __name__ == "__main__":
-    num_articles = 1000
+    num_articles = 100
     filename = "random_wikipedia_articles"
     article_data = fetch_random_articles(num_articles)
     save_articles_to_file(article_data, filename)

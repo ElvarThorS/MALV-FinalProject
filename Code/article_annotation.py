@@ -27,7 +27,7 @@ def annotate_articles(article_data, output_filename):
         annotation = label_var.get()
         annotated_data.append({
             'title': current_article['title'],
-            'ummary': current_article['summary'],
+            'summary': current_article['summary'],
             'url': current_article['url'],
             'annotation': annotation
         })
