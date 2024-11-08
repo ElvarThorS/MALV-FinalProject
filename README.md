@@ -5,7 +5,6 @@ This is the description for the Final Project for the course T-725-MALV in Reykj
 - Elvar Þór Sævarsson (elvars20@ru.is)
 - Sirus Palsson (sirus24@ru.is)
 
-https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Custom_Named_Entity_Recognition_with_BERT_only_first_wordpiece.ipynb
 
 ## Goals
 Data-driven methods to study history are limited due to the lack of validated quantitative time series data that "define" history. The data of history is almost entirely comprised of text-based, qualitative data. Therefore, we aim to develop a neural network-based methodology to study the sequence of events in history, in an attempt to quantify events and create an easily interpretable "line graph of history".
@@ -58,41 +57,6 @@ Outline of War: https://en.wikipedia.org/wiki/Outline_of_war <br>
 https://en.wikipedia.org/wiki/American_Indian_Wars <br>
 **Entity Linking**<br> 
 **Span Labeling** <br>
+https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Custom_Named_Entity_Recognition_with_BERT_only_first_wordpiece.ipynb
 
-## ChatGPT Prompts
-Can you write Python code for me that fine-tunes bert-base-cased using the transformers library on the wikimedia/structured-wikipedia using the datasets library? <br>
-Can you change the above code for multi-class classification and include early stopping?
-
-How to Stream datasets from Hugging face (from https://huggingface.co/datasets/not-lain/wikipedia-small-3000-embedded): <br>
-
-```python
-from datasets import load_dataset, Dataset
-from sentence_transformers import SentenceTransformer
-model = SentenceTransformer("mixedbread-ai/mxbai-embed-large-v1")
-
-# load dataset in streaming mode (no download and it's fast)
-dataset = load_dataset(
-    "wikimedia/wikipedia", "20231101.en", split="train", streaming=True
-)
-
-# select 3000 samples
-from tqdm import tqdm
-data = Dataset.from_dict({})
-for i, entry in enumerate(dataset):
-    # each entry has the following columns
-    # ['id', 'url', 'title', 'text']
-    data = data.add_item(entry)
-    if i == 3000:
-        break
-# free memory
-del dataset
-
-# embed the dataset
-def embed(row):
-  return {"embedding" : model.encode(row["text"])}
-data = data.map(embed)
-
-# push to hub
-data.push_to_hub("not-lain/wikipedia-small-3000-embedded")
-```
 
