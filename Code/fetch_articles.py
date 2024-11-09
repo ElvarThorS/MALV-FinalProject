@@ -55,7 +55,7 @@ def save_articles_to_file(article_data, filename):
     print(f"Article data saved to {filename}")
 
 if __name__ == "__main__":
-    num_articles = 100
+    num_articles = 500
     filename = "random_wikipedia_articles"
     article_data = fetch_random_articles(num_articles)
     save_articles_to_file(article_data, filename)
