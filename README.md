@@ -5,7 +5,7 @@ This is the description for the Final Project for the course T-725-MALV in Reykj
 - Elvar Þór Sævarsson (elvars20@ru.is)
 - Sirus Palsson (sirus24@ru.is)
 
-NER example being followed: https://medium.com/@andrewmarmon/fine-tuned-named-entity-recognition-with-hugging-face-bert-d51d4cb3d7b5
+NER example being followed: https://medium.com/@andrewmarmon/fine-tuned-named-entity-recognition-with-hugging-face-bert-d51d4cb3d7b5 <br>
 Example GitHub: https://github.com/acoadmarmon/united-nations-ner/blob/master/predict.ipynb
 
 ## Goals
