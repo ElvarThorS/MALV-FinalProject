@@ -1762,7 +1762,7 @@ sentence,token,tag
 73,has,O
 73,established,O
 73,(,O
-73,i.e.,O
+73,ie,O
 73,",",O
 73,grammar,O
 73,",",O
@@ -3818,7 +3818,8 @@ sentence,token,tag
 161,in,O
 161,damage,O
 161,were,O
-161,reported.,O
+161,reported,O
+161,.,O
 161,Black,b
 161,Friday,i
 161,",",O
@@ -5606,8 +5607,8 @@ sentence,token,tag
 222,'maternity,O
 222,benefit,O
 222,',O
-222,#NAME?,O
-222,.,O
+222,-,O
+222,ie,O
 223,full,O
 223,paid,O
 223,absence,O
@@ -7178,8 +7179,8 @@ sentence,token,tag
 289,the,O
 289,coast,O
 289,near,O
-289,Vũng,O
-289,Tàu,O
+289,Vung,O
+289,Tau,O
 289,to,O
 289,support,O
 289,a,O
