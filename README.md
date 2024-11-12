@@ -27,16 +27,6 @@ Use a pre-trained bidirectional model (BERT) and fine-tune on historical article
 - Knowledge gained benefits entities engaged in long-term planning based on the anticiaption of historical events "repeating"
 
 
-## Status
-November 3, 2024: 
-- Go with structured Wikipedia, contains more features from which we can feature extraction.
-- Stream the dataset, so you don't have to download it.
-- Created some (bad) code that extracts some features from the dataset (incomplete, needs to be modularized with functions)
-- Features for now include: number of links, the urls (for entity linking), the text of the written sections, and the character length of the text
-- Need more features?
-- Need to filter out for only the articles we want.
-
-
 ## Related Material
 **Hugging Face Libraries** <br>
 Datasets (PyPi):https://pypi.org/project/datasets/ <br>
