@@ -5,8 +5,6 @@ This is the description for the Final Project for the course T-725-MALV in Reykj
 - Elvar Þór Sævarsson (elvars20@ru.is)
 - Sirus Palsson (sirus24@ru.is)
 
-NER example being followed: https://medium.com/@andrewmarmon/fine-tuned-named-entity-recognition-with-hugging-face-bert-d51d4cb3d7b5 <br>
-Example GitHub: https://github.com/acoadmarmon/united-nations-ner/blob/master/predict.ipynb
 
 ## Goals
 Data-driven methods to study history are limited due to the lack of validated quantitative time series data that "define" history. The data of history is almost entirely comprised of text-based, qualitative data. Therefore, we aim to develop a neural network-based methodology to study the sequence of events in history, in an attempt to quantify events and create an easily interpretable "line graph of history".
@@ -59,6 +57,8 @@ Outline of War: https://en.wikipedia.org/wiki/Outline_of_war <br>
 https://en.wikipedia.org/wiki/American_Indian_Wars <br>
 **Entity Linking**<br> 
 **Span Labeling** <br>
+NER example: https://medium.com/@andrewmarmon/fine-tuned-named-entity-recognition-with-hugging-face-bert-d51d4cb3d7b5 <br>
+Example GitHub: https://github.com/acoadmarmon/united-nations-ner/blob/master/predict.ipynb
 https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Custom_Named_Entity_Recognition_with_BERT_only_first_wordpiece.ipynb
 
 
